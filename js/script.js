@@ -378,10 +378,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const aboutImageCandidates = [
             aboutImage.getAttribute("src"),
             "images/fadli2.jpeg",
-            "images/fadli3.jpg",
+            "images/fadli3.jpeg",
             "images/fadli4.jpeg",
-            "images/fadli5.jpeg",
-            "images/fadli6.jpeg",
             "images/fadli1.png"
         ];
         const uniqueSources = [...new Set(aboutImageCandidates.filter(Boolean))];
