@@ -604,6 +604,12 @@ section {
         padding: 0;
     }
 
+    .achievements .row > * {
+        flex: 0 0 50%;
+        max-width: 50%;
+        min-width: 0;
+    }
+
     .project-body,
     .achievement-body { padding: .6rem .7rem .7rem; }
 
